@@ -1,0 +1,5 @@
+.venv/
+.workbuddy/
+_media/
+_symtest/
+_tempdl/
