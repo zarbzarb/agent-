@@ -15,8 +15,8 @@
 ## 1. 怎么跑
 
 ```bash
-git clone <本仓库地址>
-cd deepseek_nlp_homework
+git clone https://github.com/zarbzarb/agent-.git
+cd agent-/deepseek_nlp_homework
 pip install -r requirements.txt
 python q13_practice.py          # 第 13 题，只需分词器，几秒就能出结果
 ```
