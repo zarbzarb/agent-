@@ -1,0 +1,6 @@
+﻿分词结果 tokens = ['[CLS]', '▁Hello', '▁world', '[SEP]']
+
+output.last_hidden_state.shape = torch.Size([1, 4, 384])
+  = [batch_size, seq_len, hidden_size] = [1, 4, 384]
+
+注意：句子只有 2 个单词，但分词器自动加了 [CLS] 与 [SEP]，所以词元数是 4。

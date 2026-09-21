@@ -1,0 +1,6 @@
+prompt 词元数 = 26，要生成 100 个词元
+
+use_cache=True  （启用 KV 缓存）：14.01 秒
+use_cache=False （禁用 KV 缓存）：893.64 秒
+
+加速比 = 63.77×

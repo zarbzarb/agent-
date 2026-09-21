@@ -1,0 +1,16 @@
+model.wv.most_similar(positive='2172', topn=5) =
+  ('2849', 0.9983972311019897)   →  Run To The Hills —— Iron Maiden
+  ('2976', 0.9969643950462341)   →  I Don't Know —— Ozzy Osbourne
+  ('3094', 0.9965113997459412)   →  Breaking The Law —— Judas Priest
+  ('3167', 0.9949889183044434)   →  Unchained —— Van Halen
+  ('2704', 0.9946180582046509)   →  Over The Mountain —— Ozzy Osbourne
+
+从《Billie Jean》—— Michael Jackson（ID=3822）开始推荐：
+
+ID      标题                                  艺术家                         相似度
+----------------------------------------------------------------------------------------
+15660   Let The Music Play                  Shannon                     0.9892
+4187    I Wanna Dance With Somebody (Who Loves Me)Whitney Houston             0.9882
+500     Don't Stop 'Til You Get Enough      Michael Jackson             0.9861
+12749   Wanna Be Startin' Somethin'         Michael Jackson             0.9859
+4181    Kiss                                Prince & The Revolution     0.9858

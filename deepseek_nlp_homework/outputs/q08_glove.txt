@@ -1,0 +1,19 @@
+﻿从本地文件加载：F:\agent-homework\deepseek_nlp_homework\data\glove-wiki-gigaword-50.txt
+词表大小 = 400,000，向量维度 = 50
+
+glove_vectors.most_similar("king") =
+  ('prince', 0.8236179947853088)
+  ('queen', 0.7839043140411377)
+  ('ii', 0.7746229767799377)
+  ('emperor', 0.7736246585845947)
+  ('son', 0.766719400882721)
+  ('uncle', 0.7627150416374207)
+  ('kingdom', 0.7542160749435425)
+  ('throne', 0.7539913654327393)
+  ('brother', 0.7492411732673645)
+  ('ruler', 0.7434253692626953)
+
+向量类比 most_similar(positive=["king", "woman"], negative=["man"]) =
+  ('queen', 0.8524)
+  ('throne', 0.7664)
+  ('prince', 0.7592)

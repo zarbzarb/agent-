@@ -1,0 +1,27 @@
+# 《NLP 词元和嵌入》作业 —— 依赖清单
+# 安装：pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# ---- 深度学习 / 大模型（DeepSeek 走 transformers 接口）----
+torch>=2.1
+transformers>=4.40
+accelerate>=0.30            # device_map="auto" 自动分配设备时需要
+sentence-transformers>=2.7  # 第 7 题
+
+# ---- 分词器依赖（DeBERTa-v3、Llama 系分词器需要）----
+sentencepiece>=0.1.99
+tiktoken>=0.7
+
+# ---- 预训练词嵌入 ----
+gensim>=4.3                 # 第 8、9、10 题（若在 Python 3.13 上安装失败，请用 Python 3.11 / 3.12）
+
+# ---- 数据处理 ----
+numpy>=1.24
+pandas>=2.0
+requests>=2.31              # 第 9 题下载歌单数据集
+
+# 说明：
+# 1) 无 GPU 时建议安装 CPU 版 torch 以减小体积：
+#    pip install torch --index-url https://download.pytorch.org/whl/cpu
+# 2) 模型权重不用手动准备：脚本会先找脚本同级的 models/ 目录，
+#    没有再按官方仓库名联网下载（deepseek-coder-1.3b-instruct 等）。国内建议先设镜像：
+#    set HF_ENDPOINT=https://hf-mirror.com

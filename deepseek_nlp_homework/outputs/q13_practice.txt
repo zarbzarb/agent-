@@ -1,0 +1,27 @@
+词表大小：32,022
+
+句子：'The dog chased the squirrel because it'
+input_ids = tensor([[32013,   546,  5014,   494,  1330,   254,  4685,   348,  3788,  1368,
+           359]])
+
+序号    词元 (token)              词元 ID       
+--------------------------------------------
+0     '<｜begin▁of▁sentence｜>' 32013       
+1     'The'                   546         
+2     'Ġdog'                  5014        
+3     'Ġch'                   494         
+4     'ased'                  1330        
+5     'Ġthe'                  254         
+6     'Ġsqu'                  4685        
+7     'ir'                    348         
+8     'rel'                   3788        
+9     'Ġbecause'              1368        
+10    'Ġit'                   359         
+
+【答案(一)】tokenizer('it', add_special_tokens=False).input_ids = [260]
+          → it 被切分成 1 个词元：['it']
+
+对比（罕见词会被拆成多个子词）：
+  squirrel                         → 3 个词元 ['s', 'quir', 'rel']
+  apologizing                      → 3 个词元 ['ap', 'olog', 'izing']
+  antidisestablishmentarianism     → 8 个词元 ['ant', 'id', 'is', 'estab', 'lish', 'ment', 'arian', 'ism']

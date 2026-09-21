@@ -1,0 +1,57 @@
+--- for id in input_ids[0]: print(tokenizer.decode(id)) ---
+<｜begin▁of▁sentence｜>
+Write
+ an
+ email
+ apolog
+izing
+ to
+ Sarah
+ for
+ the
+ trag
+ic
+ gard
+ening
+ m
+ish
+ap
+.
+ Expl
+ain
+ how
+ it
+ happened
+.
+###
+ Response
+:
+
+--- 词元 与 词元 ID ---
+ 0  '<｜begin▁of▁sentence｜>' id=32013
+ 1  'Write'                id=9083
+ 2  'Ġan'                  id=274
+ 3  'Ġemail'               id=4989
+ 4  'Ġapolog'              id=25536
+ 5  'izing'                id=4360
+ 6  'Ġto'                  id=276
+ 7  'ĠSarah'               id=20101
+ 8  'Ġfor'                 id=327
+ 9  'Ġthe'                 id=254
+10  'Ġtrag'                id=27788
+11  'ic'                   id=278
+12  'Ġgard'                id=30234
+13  'ening'                id=3998
+14  'Ġm'                   id=273
+15  'ish'                  id=840
+16  'ap'                   id=373
+17  '.'                    id=13
+18  'ĠExpl'                id=15861
+19  'ain'                  id=444
+20  'Ġhow'                 id=940
+21  'Ġit'                  id=359
+22  'Ġhappened'            id=6629
+23  '.'                    id=13
+24  '###'                  id=13518
+25  'ĠResponse'            id=21289
+26  ':'                    id=25

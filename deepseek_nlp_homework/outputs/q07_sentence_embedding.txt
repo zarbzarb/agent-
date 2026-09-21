@@ -1,0 +1,6 @@
+﻿vector.shape = (768,)   ← 一维、768 维，整句话被编码成一个向量
+
+与 'Best movie ever!' 的余弦相似度：
+  +1.0000  'Best movie ever!'
+  +0.6430  'A wonderful film.'
+  +0.1364  'I hate this traffic jam.'

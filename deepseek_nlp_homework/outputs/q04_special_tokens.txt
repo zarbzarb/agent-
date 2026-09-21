@@ -1,0 +1,14 @@
+本作业使用的分词器：F:\agent-homework\deepseek_nlp_homework\models\deepseek-coder-1.3b-instruct
+词表大小：32,022
+
+【填空答案】
+  unk（未知）          词表里查不到、又无法切成已知子词时用它占位
+  sep（分隔符）         把两段文本分隔开，供句对分类/问答/句子相似度等任务使用
+  pad（填充）          把 batch 内不同长度的句子补齐到同一长度，占位用，模型会忽略它
+  cls（分类）          放在句首，其最终向量作为整句的聚合表示，供分类任务使用
+  mask（掩码）         预训练时遮住要预测的词，让模型学会从上下文预测（MLM）
+
+【DeepSeek 分词器实际的特殊词元】
+  id=32013   '<｜begin▁of▁sentence｜>'
+  id=32021   '<|EOT|>'
+  id=32014   '<｜end▁of▁sentence｜>'

@@ -1,0 +1,20 @@
+input_ids = tensor([[32013,  9083,   274,  4989, 25536,  4360,   276, 20101,   327,   254,
+         27788,   278, 30234,  3998,   273,   840,   373,    13, 15861,   444,
+           940,   359,  6629,    13, 13518, 21289,    25]], device='cuda:0')
+
+类型   type   = <class 'torch.Tensor'>
+数据类型 dtype = torch.int64
+形状   shape  = (1, 27)  → [batch_size, seq_len]
+设备   device = cuda:0
+
+前 10 个数字对应的文字：
+  32013  '<｜begin▁of▁sentence｜>'
+  9083   'Write'
+  274    ' an'
+  4989   ' email'
+  25536  ' apolog'
+  4360   'izing'
+  276    ' to'
+  20101  ' Sarah'
+  327    ' for'
+  254    ' the'
